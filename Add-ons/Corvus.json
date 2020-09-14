@@ -1,10 +1,11 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-corvus",
   "1.12.2": {
+    "1.12.2-1.0.1": "• Disabling regular Frankincense tree generation now checks that DT world gen is enabled in the config.",
     "1.12.2-1.0.0": "Initial release."
   },
   "promos": {
-    "1.12.2-latest": "1.12.2-1.0.0",
-    "1.12.2-recommended": "1.12.2-1.0.0"
+    "1.12.2-latest": "1.12.2-1.0.1",
+    "1.12.2-recommended": "1.12.2-1.0.1"
   }
 }
