@@ -1,10 +1,10 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-industrial-craft-2",
   "1.12.2": {
-    "1.12.2-1.1.0": "Added world gen.",
-    "1.12.2-1.0.2": "Fixed IC2 trees not generating.",
-    "1.12.2-1.0.1": "Added icon.",
-    "1.12.2-1.0.0": "Initial release."
+    "1.12.2-1.1.0": "• Added world gen.\n• Fixed minor issues.",
+    "1.12.2-1.0.2": "• Fixed IC2 trees not generating.",
+    "1.12.2-1.0.1": "• Added icon.",
+    "1.12.2-1.0.0": "• Initial release."
   },
   "promos": {
     "1.12.2-latest": "1.12.2-1.1.0",
