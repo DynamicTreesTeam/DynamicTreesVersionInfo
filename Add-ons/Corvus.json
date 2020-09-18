@@ -1,5 +1,5 @@
 {
-  "homepage": "https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-corvus",
+  "homepage": "https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-corvus/files",
   "1.12.2": {
     "1.12.2-1.0.3": "This is a small release mainly to work with newer versions of dynamic trees that removed a method I had unintentionally overridden.\n\nChanges:\n• Now works with newer versions of Dynamic Trees.\n• Fixed update checker.",
     "1.12.2-1.0.2": "• Fixed server crash involving logging biome names.\n• Changed lang files to conform to new DT standards.",
