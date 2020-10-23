@@ -1,12 +1,13 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-natures-aura/files",
   "1.12.2": {
+    "1.12.2-1.1.0": "This major release contains ancient and decayed leaves for vanilla trees, bug fixes, and implementation of the forge update checker.\n\nChanges:\n• Added ancient leaves, which work on all vanilla dynamic trees.\n• Added decayed leaves, which work on all vanilla dynamic trees.\n• Added forge update checker.\n• Now works with newer versions of Dynamic Trees.\n• Updated to new DT naming conventions.\n• Added species localisation.\n• Other minor fixes and changes.",
     "1.12.2-1.0.2": "• Added Ancient Acorn ritual of the forest recipe, which is the normal Ancient Sapling recipe with an oak acorn instead of oak sapling.\n• Changed icon.",
     "1.12.2-1.0.1": "• Fixed some leaves not having tile entities tied to them, which meant they wouldn’t integrate with aura or show particles.\n• Fixed icon not showing up in mod list.",
     "1.12.2-1.0.0": "Initial release."
   },
   "promos": {
-    "1.12.2-latest": "1.12.2-1.0.2",
-    "1.12.2-recommended": "1.12.2-1.0.2"
+    "1.12.2-latest": "1.12.2-1.1.0",
+    "1.12.2-recommended": "1.12.2-1.1.0"
   }
 }
