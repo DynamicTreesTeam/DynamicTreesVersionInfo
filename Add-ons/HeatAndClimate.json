@@ -1,0 +1,10 @@
+{
+  "homepage": "https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-heat-and-climate/files",
+  "1.12.2": {
+    "1.12.2-2.0.0": "Initial release of fork."
+  },
+  "promos": {
+    "1.12.2-latest": "1.12.2-2.0.0",
+    "1.12.2-recommended": "1.12.2-2.0.0"
+  }
+}
