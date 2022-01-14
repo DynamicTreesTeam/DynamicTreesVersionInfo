@@ -1,6 +1,7 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/dynamictrees",
   "1.16.5": {
+    "1.16.5-0.10.0-Beta28": "Bug Fixes:\n- Fixed crash on server startup due to client-only method.",
     "1.16.5-0.10.0-Beta27": "New Features:\n- Growth Logic Kits now have properties. These are work in the same way as those used by gen features and drop creators.\n\nEnhancements:\n- Global drop creators can now be defined in the `drop_creators/global` subfolder (relative to `trees/[namespace]`).\n- Gen Features, Drop Creators, and Growth Logic Kits can now have configurations defined in their own file (`gen_features/configurations`, `drop_creators/configurations`, and `growth_logic_kits/configurations` respectively, relative to `trees/[namespace]`).\n- A lot of code cleanup and refactors.\n- Reworked Json deserialisation, error and warning logging should be much more thorough now.\n- Added `NOT` operator to Json biome selectors.\n- `Configurable#get` is now non-null (calling on a null property causes a crash).\n\nBug Fixes:\n- Fixed root blocks not connecting properly underwater.\n- Fix incorrect check causing leaves to force chunk loading (port of #646).\n\nPlease note that the following add-ons will need an update due to the code changes in this version. They have each been released simultaneously and so should be uploaded by the time you're reading this. \n- DT+\n- DT Atum 2\n- DT BOP\n- DT BYG\n- DT Nature's Aura\n- DT Neapolitan",
     "1.16.5-0.10.0-Beta26": "New Features:\n+ Added `\"OR\"` and `\"AND\"` appliers to datapack worldgen biome selectors.\n+ Added `\"names_or\"` applier to datapack worldgen biome selectors.\n+ Allowed rooty soils to read blockstate of primitive soil for checking validity and deciding the proper soil block to use.\n\nEnhancements:\n- Moved generateDirtBucketRecipes to common config\n\nBug Fixes:\n- Fixed logs and sticks dropping above the max stack size.\n- Fixed substitute soils not assigning properly",
     "1.16.5-0.10.0-Beta25": "New Features:\n+ Added block state, block model, and item model generators.\n\nEnhancements:\n+ Accept `shears` ToolType rather than relying on type-bound `ShearsItem` detection.\n- GrowthLogicKit.newDirectionSelected now takes `World` and `BlockPos` parameter.\n- Shrunk falling tree entity bounding box to reduce lag (culling bounding box is kept large to prevent it disappearing at a distance).\n\nBug Fixes:\n- Fixed crash whilst generating vines (#618).\n- Fixed CME whilst exploding a large amount of trees (#620).\n- Fixed pathfinding issues around dynamic trees (#592).\n- Fixed world ticking exception with SnowRealMagic (#617).",
@@ -25,7 +26,7 @@
     "1.16.5-0.10.0-Beta6": "Initial 1.16.5 beta for CF."
   },
   "promos": {
-    "1.16.5-latest": "1.16.5-0.10.0-Beta27",
-    "1.16.5-recommended": "1.16.5-0.10.0-Beta27"
+    "1.16.5-latest": "1.16.5-0.10.0-Beta28",
+    "1.16.5-recommended": "1.16.5-0.10.0-Beta28"
   }
 }
