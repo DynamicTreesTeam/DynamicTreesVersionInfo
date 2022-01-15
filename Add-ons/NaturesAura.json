@@ -1,5 +1,13 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-natures-aura/files",
+  "1.16.5": {
+    "1.16.5-1.2.5": "Bug Fixes:\n- Updated to work with DT 0.10.0 Beta 27.",
+    "1.16.5-1.2.4": "Bug Fixes:\n- Updated to work with DT 0.10.0 Beta 18.",
+    "1.16.5-1.2.3": "Enhancements\n+ Added Russian translation from DT translation sheet. \n+ Added block and item tags.",
+    "1.16.5-1.2.2": "Bug Fixes:\n- Fixed Nature's Aura dependency version for CurseForge release version.",
+    "1.16.5-1.2.1": "Bug Fixes:\n- Added Nature's Aura as a dependency (to the mods.toml).",
+    "1.16.5-1.2.0": "Initial 1.16.5 release."
+  },
   "1.12.2": {
     "1.12.2-1.1.0": "This major release contains ancient and decayed leaves for vanilla trees, bug fixes, and implementation of the forge update checker.\n\nChanges:\n• Added ancient leaves, which work on all vanilla dynamic trees.\n• Added decayed leaves, which work on all vanilla dynamic trees.\n• Added forge update checker.\n• Now works with newer versions of Dynamic Trees.\n• Updated to new DT naming conventions.\n• Added species localisation.\n• Other minor fixes and changes.",
     "1.12.2-1.0.2": "• Added Ancient Acorn ritual of the forest recipe, which is the normal Ancient Sapling recipe with an oak acorn instead of oak sapling.\n• Changed icon.",
@@ -7,6 +15,8 @@
     "1.12.2-1.0.0": "Initial release."
   },
   "promos": {
+    "1.16.5-latest": "1.16.5-1.2.5",
+    "1.16.5-recommended": "1.16.5-1.2.5",
     "1.12.2-latest": "1.12.2-1.1.0",
     "1.12.2-recommended": "1.12.2-1.1.0"
   }
