@@ -1,6 +1,7 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/dynamictrees",
   "1.16.5": {
+    "1.16.5-0.10.0-Beta30": "##### Bug Fixes:\n- Fixed mushroom models being tinted.\n- Fixed deserialisation of materials, material colors, and sound types in production environment.\n- Fixed crash when breaking sapling on client connected to remote server due to required Species data not being loaded.",
     "1.16.5-0.10.0-Beta29": "Enhancements:\n- Added error message for missing sapling item in seed-sapling recipes.\n- Made logging more consistent in certain areas.\n\nChanges:\n- Refactored `leafAges` -> `AgeingConfiguration` and `does_age` leaves leaves properties property to `ageing_configuration` to match.\n\nBug Fixes:\n- Fixed crash due to bush feature not respecting nullable secondary leaves property.",
     "1.16.5-0.10.0-Beta28": "Bug Fixes:\n- Fixed crash on server startup due to client-only method.",
     "1.16.5-0.10.0-Beta27": "New Features:\n- Growth Logic Kits now have properties. These are work in the same way as those used by gen features and drop creators.\n\nEnhancements:\n- Global drop creators can now be defined in the `drop_creators/global` subfolder (relative to `trees/[namespace]`).\n- Gen Features, Drop Creators, and Growth Logic Kits can now have configurations defined in their own file (`gen_features/configurations`, `drop_creators/configurations`, and `growth_logic_kits/configurations` respectively, relative to `trees/[namespace]`).\n- A lot of code cleanup and refactors.\n- Reworked Json deserialisation, error and warning logging should be much more thorough now.\n- Added `NOT` operator to Json biome selectors.\n- `Configurable#get` is now non-null (calling on a null property causes a crash).\n\nBug Fixes:\n- Fixed root blocks not connecting properly underwater.\n- Fix incorrect check causing leaves to force chunk loading (port of #646).\n\nPlease note that the following add-ons will need an update due to the code changes in this version. They have each been released simultaneously and so should be uploaded by the time you're reading this. \n- DT+\n- DT Atum 2\n- DT BOP\n- DT BYG\n- DT Nature's Aura\n- DT Neapolitan",
@@ -27,7 +28,7 @@
     "1.16.5-0.10.0-Beta6": "Initial 1.16.5 beta for CF."
   },
   "promos": {
-    "1.16.5-latest": "1.16.5-0.10.0-Beta29",
-    "1.16.5-recommended": "1.16.5-0.10.0-Beta29"
+    "1.16.5-latest": "1.16.5-0.10.0-Beta30",
+    "1.16.5-recommended": "1.16.5-0.10.0-Beta30"
   }
 }
