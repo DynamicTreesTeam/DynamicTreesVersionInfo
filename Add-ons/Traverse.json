@@ -1,5 +1,5 @@
 {
-  "homepage": "https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-traverse",
+  "homepage": "https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-traverse/files",
   "1.12.2": {
     "1.12.2-2.1": "This release adds the missing world gen features from the original mod and makes other minor fixes.\n\nChanges:\n• Added mini jungle and oak shrub species.\n• Added world gen for mini jungle, cliffs, glaciers, and desert shrubland.\n• Added species localisations.\n• Other minor improvements.",
     "1.12.2-2.0": "Now works with newer versions of Dynamic Trees."
