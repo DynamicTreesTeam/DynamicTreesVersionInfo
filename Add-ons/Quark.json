@@ -1,0 +1,25 @@
+{
+	"homepage": "https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-quark/files",
+	"1.16.5": {
+		"1.16.5-2.1.2": "New Features:\n+ Added turf slabs and turf stairs as a valid soil blocks",
+		"1.16.5-2.1.1": "New Features:\n+ Added turf as a valid soil block",
+		"1.16.5-2.1.0": "New Features:\n+ New Patchouli manual entry about blossom trees (requires Patchouli)\nEnhancements:\n- Updated to work with Dynamic Trees beta18\nBug Fixes:\n- Fixed crash with latest quark version",
+		"1.16.5-2.0.3": "- Fixed 1.16.4 not being accepted (for real this time)",
+		"1.16.5-2.0.2": "- Fixed Glowcelium breaking when a tree is planted on it\n- Fixed dependencies only accepting 1.16.5 and not 1.16.4",
+		"1.16.5-2.0.1": "- Updated to work with Dynamic Trees 1.10.0-Beta7",
+		"1.16.5-2.0.0": "- Updated to 1.16.5\n- Now supports trees from the 1.16.5 version of Quark"
+	},
+	"1.12.2": {
+		"1.12.2-1.0.6": "- Minor fixes",
+		"1.12.2-1.0.5": "+ Added update checker",
+		"1.12.2-1.0.4": "- Fixed crash when Tree Variants are disabled (definitely this time)",
+		"1.12.2-1.0.2": "- Fixed crash issue",
+		"1.12.2-1.0.1": "- Minor Fixes"
+	},
+	"promos": {
+		"1.16.5-latest": "1.16.5-2.1.2",
+		"1.16.5-recommended": "1.16.5-2.1.2",
+		"1.12.2-latest": "1.12.2-1.0.6",
+		"1.12.2-recommended": "1.12.2-1.0.6"
+	}
+}
