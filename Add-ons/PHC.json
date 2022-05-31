@@ -1,7 +1,7 @@
 {
 	"homepage": "https://www.curseforge.com/minecraft/mc-mods/dtphc/files",
 	"1.12.2": {
-		"1.12.2-2.0.6": "- Fixed crash on latest DT version\n- Fixed string crafting into spiderweb sapling.\n- Other minor fixes",
+		"1.12.2-2.0.6": "- Fixed crash on latest DT version\n- Fixed string crafting into spiderweb sapling\n- Other minor fixes",
 		"1.12.2-2.0.5": "- Fixed crash in latest Dynamic Trees version.\n- Fixed falling fruit sometimes dropping more than it should.",
 		"1.12.2-2.0.4": "- Fixed fruit not generating during worldgen in palm-like trees.",
 		"1.12.2-2.0.3": "+ Added config file with options for fruit gen, and tree configuration\n- Made Maple Syrup be limited by tree",

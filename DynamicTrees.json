@@ -29,6 +29,8 @@
     "1.16.5-0.10.0-Beta6": "Initial 1.16.5 beta for CF."
   },
   "1.12.2": {
+    "1.12.2-0.9.29": "##### Bug Fixes:\n- Fixed update tracker not working",
+    "1.12.2-0.9.28": "##### New Features:\n- Added BoneMealHelper to manage new bonemeal-like items",
     "1.12.2-0.9.27": "##### Bug Fixes:\n- Fix incorrect check causing leaves to force chunk loading.\n- Fixed trees consuming all potion items if they're stackable.",
     "1.12.2-0.9.26": "Changes:\n- Bumped minimum Forge version to 14.23.5.2860.\n\nBug Fixes:\n- Fixed arrows shot at dynamic leaves floating.",
     "1.12.2-0.9.25": "Enhancements:\n- Added action bar error messages to certain common potion application failures.\n- Shrunk falling tree entity bounding box to reduce lag (culling bounding box is kept large to prevent it disappearing at a distance).\n\nBug Fixes:\n- Fixed incompatibility with SnowRealMagic that caused \"ghost blocks\" to spawn on trees in place of snow layers.\n- Fixed log spam `X not valid leaves for Y.` due to not checking leaves are valid before destroying.\n- Fixed crash when using name array selector in worldgen Json.\n- Fixed potions only being consumed if they used lingering effects.\n- Fix incompatibility crash with Hardcore Item Stages.",
@@ -47,7 +49,7 @@
   "promos": {
     "1.16.5-latest": "1.16.5-0.10.0-Beta31",
     "1.16.5-recommended": "1.16.5-0.10.0-Beta31",
-    "1.12.2-latest": "1.12.2-0.9.27",
-    "1.12.2-recommended": "1.12.2-0.9.27"
+    "1.12.2-latest": "1.12.2-0.9.29",
+    "1.12.2-recommended": "1.12.2-0.9.29"
   }
 }
