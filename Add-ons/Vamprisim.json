@@ -1,9 +1,16 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-vampirism/files",
+  "1.18.2": {
+    "1.18.2-1.2.2": "Update for DT beta 6.",
+    "1.18.2-1.2.1": "Fixed a datagen issue causing vanilla dynamic trees to drop leaves instead of seeds.",
+    "1.18.2-1.2.0": "Port to 1.18.2."
+  },
   "1.12.2": {
     "1.12.2-1.0.0": "Initial release - replaces normal trees with dynamic trees in the Vampire Forest."
   },
   "promos": {
+    "1.18.2-latest": "1.18.2-1.2.2",
+    "1.18.2-recommended": "1.18.2-1.2.2",
     "1.12.2-latest": "1.12.2-1.0.0",
     "1.12.2-recommended": "1.12.2-1.0.0"
   }

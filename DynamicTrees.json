@@ -1,6 +1,22 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/dynamictrees",
+  "1.18.2": {
+    "1.18.2-0.11.0-Beta6": "### Enhancements\n- Biome populator selectors can now filter by biome tags. \n\n### Changes\n- Feature cancellers are now read from a separate file called `feature_cancellers.json` rather than from the default populators.*\n- Added rooty dirt as the snow block's substitute soil.\n\n### Bug Fixes\n- Fix some broken resource loading error messages.\n- Fix spruce trees spawning in frozen oceans and ice spikes biomes.\n- Fix loading error with Patchouli book.\n\n* Due to this change, **any add-ons using feature cancellers will need to be updated**. Therefore, it is recommended that you ensure all add-ons are fully up-to-date. Those maintained under the `DynamicTreesTeam` GitHub have been updated and released alongside this.",
+    "1.18.2-0.11.0-Beta5": "### Changes\n- Base ground finder on DimensionType#hasCeiling rather than DT biome database.\n- Modify chance for nether forests to 1.\n\n### Bug Fixes\n- Fix loading issue (#737).",
+    "1.18.2-0.11.0-Beta4": "Small patch fixing crash when looking at apples and dynamic trees with cocoa beans in multiplayer (#732, #734).",
+    "1.18.2-0.11.0-Beta3": "Fix branch item names not having `_branch` suffix.",
+    "1.18.2-0.11.0-Beta1": "Ported 1.16.5 fixes and updates (see 1.16.5-0.10.0-Beta34 for details).",
+    "1.18.2-0.11.0-Alpha2": "### Bug Fixes:\n- Fix biomes randomly not generating trees.\n- Fix rooty block rendering.\n- Fix tree not having a common species sapling block.\n- Other minor fixes.",
+    "1.18.2-0.11.0-Alpha1": "### Initial port of 1.18\nThis version still lacks many features, such as the azalea trees.\n\n### Changes:\n- Added moss, rooted dirt and snow blocks as valid soils.\n\nMassive thanks to Nyfaria and SizableShrimp for doing all of the heavy lifting for this port!"
+  },
   "1.16.5": {
+    "1.16.5-0.10.2": "Small patch fixing crash when looking at dynamic trees with cocoa beans in multiplayer (#734).",
+    "1.16.5-0.10.1": "Small patch fixing crash when looking at apple trees in multiplayer (#732).",
+    "1.16.5-0.10.0": "Release, no changes from beta 35.",
+    "1.16.5-0.10.0-Beta35": "Small patch re-enforcing the minimum seasonal drop chance of 15%.",
+    "1.16.5-0.10.0-Beta34": "### Enhancements\n- Make fruits and pods data-driven.\n- Add `TransitionSaplingToTreeEvent` event.\n- Rework drops to use loot tables.\n- Many more minor code changes/refinements.\n\n### Fixes\n- Fix vanilla trees spawning in villages.\n- Fix trees sometimes spawning before structures.\n- Fix model incompatibility with Sodium Forge ports.\n- Fix substitute soil, and hence remove rooty farmland’s uninentional existence.\n- Fix noise density for Poisson radius selection.\n- Fix purge tree command not cleaning up related attached blocks.\n- Other minor fixes.",
+    "1.16.5-0.10.0-Beta33": "### Enhancements\n- Changed rooty blocks to use getSoilBlockstate for shape, light, and all other properties instead of default blockstate.\n- Changed `getHarness` method to include the blockState parameter for `BlocksWithDynamicHardness` (some addons might need updating)\n- Added `isValidBranchBlock` method to `Family` class.\n- Added some nether plants to the foliage tag.\n- General datapack improvements.",
+    "1.16.5-0.10.0-Beta32": "### Bug Fixes\n- Prevented client crash when secondary leaves are not fetched properly.\n- Fixed `names_or` applier not working properly.",
     "1.16.5-0.10.0-Beta31": "##### Enhancements:\n- Add item tags for bone meal and growth effect.\n\n##### Bug Fixes:\n- Fix bush feature only placing leaves if secondary leaves are set.",
     "1.16.5-0.10.0-Beta30": "##### Bug Fixes:\n- Fixed mushroom models being tinted.\n- Fixed deserialisation of materials, material colors, and sound types in production environment.\n- Fixed crash when breaking sapling on client connected to remote server due to required Species data not being loaded.",
     "1.16.5-0.10.0-Beta29": "Enhancements:\n- Added error message for missing sapling item in seed-sapling recipes.\n- Made logging more consistent in certain areas.\n\nChanges:\n- Refactored `leafAges` -> `AgeingConfiguration` and `does_age` leaves leaves properties property to `ageing_configuration` to match.\n\nBug Fixes:\n- Fixed crash due to bush feature not respecting nullable secondary leaves property.",
@@ -47,8 +63,10 @@
     "1.12.2-0.9.14": "New Features:\n- Removed \"Dynamic\" prefix from localized branch names.\n- Species name localizations (please be patient while add-ons catch up, species names will be unlocalized until new add-on releases are made with updated lang files).\n\nBugs Fixed:\n- Dimensions other than 0 now grow trees properly again (bug introduced by Serene Seasons integration effort).\n- Made rooty dirt blocks get color from mimic instead of grass (thanks Max Hyper).\n- Fix optifine shader interaction bug where sky could be seen through breaking texture on trees.\n- Fixed small crash with cactus model (thanks Max Hyper).\n\nInternal:\n- Enhanced SeasonHelper capabilities with helper functions.\n- Removed \"Wrapped\" classes and redefined blockstate files to be more standard.\n- Don't throw an exception when a JoCode file isn't defined."
   },
   "promos": {
-    "1.16.5-latest": "1.16.5-0.10.0-Beta31",
-    "1.16.5-recommended": "1.16.5-0.10.0-Beta31",
+    "1.18.2-latest": "1.18.2-0.11.0-Beta6",
+    "1.18.2-recommended": "1.18.2-0.11.0-Beta6",
+    "1.16.5-latest": "1.16.5-0.10.2",
+    "1.16.5-recommended": "1.16.5-0.10.2",
     "1.12.2-latest": "1.12.2-0.9.29",
     "1.12.2-recommended": "1.12.2-0.9.29"
   }
