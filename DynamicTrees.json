@@ -1,6 +1,7 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/dynamictrees",
   "1.18.2": {
+    "1.18.2-1.0.0": "At last, the official 1.0 update is out!\n\nNew Features:\n\n+ Cocoa species\n\n+ Falling tree sound effects\n\nChanges:\n\n+ Jungle undergrowth leaves are now dynamic bushes\n\n+ Extended reach of staff item for placing trees\n\n+ Internal changes\n\n+ minor changes to conifer growthlogic\n\n+ fruits and pods now show up in waila hud\n\nFixes:\n\n- fixed seasonal titles not showing up properly with some season handler mods\n\n- fixed bamboo getting cut by mega jungle trees\n\n- fixed air pockets with trees that generate underwater\n\n- other minor fixes"
     "1.18.2-0.11.0-Beta6": "### Enhancements\n- Biome populator selectors can now filter by biome tags. \n\n### Changes\n- Feature cancellers are now read from a separate file called `feature_cancellers.json` rather than from the default populators.*\n- Added rooty dirt as the snow block\u0027s substitute soil.\n\n### Bug Fixes\n- Fix some broken resource loading error messages.\n- Fix spruce trees spawning in frozen oceans and ice spikes biomes.\n- Fix loading error with Patchouli book.\n\n* Due to this change, **any add-ons using feature cancellers will need to be updated**. Therefore, it is recommended that you ensure all add-ons are fully up-to-date. Those maintained under the `DynamicTreesTeam` GitHub have been updated and released alongside this.",
     "1.18.2-0.11.0-Beta5": "### Changes\n- Base ground finder on DimensionType#hasCeiling rather than DT biome database.\n- Modify chance for nether forests to 1.\n\n### Bug Fixes\n- Fix loading issue (#737).",
     "1.18.2-0.11.0-Beta4": "Small patch fixing crash when looking at apples and dynamic trees with cocoa beans in multiplayer (#732, #734).",
@@ -64,8 +65,8 @@
     "1.12.2-0.9.14": "New Features:\n- Removed \"Dynamic\" prefix from localized branch names.\n- Species name localizations (please be patient while add-ons catch up, species names will be unlocalized until new add-on releases are made with updated lang files).\n\nBugs Fixed:\n- Dimensions other than 0 now grow trees properly again (bug introduced by Serene Seasons integration effort).\n- Made rooty dirt blocks get color from mimic instead of grass (thanks Max Hyper).\n- Fix optifine shader interaction bug where sky could be seen through breaking texture on trees.\n- Fixed small crash with cactus model (thanks Max Hyper).\n\nInternal:\n- Enhanced SeasonHelper capabilities with helper functions.\n- Removed \"Wrapped\" classes and redefined blockstate files to be more standard.\n- Don\u0027t throw an exception when a JoCode file isn\u0027t defined."
   },
   "promos": {
-    "1.18.2-latest": "1.18.2-0.11.0-Beta7",
-    "1.18.2-recommended": "1.18.2-0.11.0-Beta7",
+    "1.18.2-latest": "1.18.2-1.0.0",
+    "1.18.2-recommended": "1.18.2-1.0.0",
     "1.16.5-latest": "1.16.5-0.10.2",
     "1.16.5-recommended": "1.16.5-0.10.2",
     "1.12.2-latest": "1.12.2-0.9.29",
