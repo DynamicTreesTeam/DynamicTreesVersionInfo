@@ -1,11 +1,14 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/dynamictrees/files",
   "1.18.2": {
+    "1.18.2-1.0.0": "### New Features:\n+ Red Mushroom\n+ Brown Mushroom\n+ Mega Red Mushroom\n+ Mega Brown Mushroom\n+ Modified worldgen in mushroom fields and dark forests to include mushrooms",
     "1.18.2-0.1.0-Beta2": "### Changes\n- Update for DT beta 6.\n- Port vanilla cacti replacements for desert villages.",
     "1.18.2-0.1.0-Beta1": "Update to work with DT 0.11.0 Beta 1.",
     "1.18.2-0.1.0-Alpha1": "Direct port of 1.16.5 version."
   },
   "1.16.5": {
+    "1.16.5-0.1.0": "New Features: - Saguaro fruit now generates in saguaro cacti - Saguaro seed item was renamed to saguaro fruit and is now edible Fixes: - Fixed non-dynamic trees generating in mesa plateaus",
+    "1.16.5-0.2.0-Beta4": "Update to work with DT beta 9",
     "1.16.5-0.1.0-Beta12": "### Enhancements\n- Replace vanilla cacti from desert villages (#16).\n\n### Changes\n- Update for compatibility with transition to tree event PR.\n- Update for drops rework (#17).",
     "1.16.5-0.1.0-Beta11": "Updated to work with DT 0.10.0 Beta 27.",
     "1.16.5-0.1.0-Beta10": "New Features:\n- New Patchouli manual entry about cacti (requires Patchouli).\n\nEnhancements:\n- Updated to work with Dynamic Trees Beta 18.",
@@ -15,9 +18,9 @@
     "1.16.5-0.1.0-Beta6": "Initial 1.16.5 beta for CF."
   },
   "promos": {
-    "1.18.2-latest": "1.18.2-0.1.0-Beta2",
-    "1.18.2-recommended": "1.18.2-0.1.0-Beta2",
-    "1.16.5-latest": "1.16.5-0.1.0-Beta12",
-    "1.16.5-recommended": "1.16.5-0.1.0-Beta12"
+    "1.18.2-latest": "1.18.2-1.0.0",
+    "1.18.2-recommended": "1.18.2-1.0.0",
+    "1.16.5-latest": "1.16.5-0.1.0",
+    "1.16.5-recommended": "1.16.5-0.1.0"
   }
 }
