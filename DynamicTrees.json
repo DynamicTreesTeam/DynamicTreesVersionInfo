@@ -14,7 +14,7 @@
     "1.18.2-0.11.0-Beta7": "- Fix small mistake in TreeHelper#destroyTree [Harley]\n- Add TreeHelper#destroyTree for easier mod integration [Harley]\n- Set project name to \"Dynamic Trees\" [Harley]"
   },
   "1.16.5": {
-    "1.16.5-0.10.5": "Fixes:\n- Fixed oak trees spawning in places they shouldn't\nTechnical:\n- Updated seed class to allow for cleaner inheritance",
+    "1.16.5-0.10.5": "Fixes:\n- Fixed oak trees spawning in places they shouldn\u0027t\nTechnical:\n- Updated seed class to allow for cleaner inheritance",
     "1.16.5-0.10.2": "Small patch fixing crash when looking at dynamic trees with cocoa beans in multiplayer (#734).",
     "1.16.5-0.10.1": "Small patch fixing crash when looking at apple trees in multiplayer (#732).",
     "1.16.5-0.10.0": "Release, no changes from beta 35.",
@@ -73,6 +73,11 @@
     "1.16.5-latest": "1.16.5-0.10.5",
     "1.16.5-recommended": "1.16.5-0.10.5",
     "1.12.2-latest": "1.12.2-0.9.29",
-    "1.12.2-recommended": "1.12.2-0.9.29"
+    "1.12.2-recommended": "1.12.2-0.9.29",
+    "1.19.2-latest": "1.19.2-1.1.0-BETA4",
+    "1.19.2-recommended": "1.19.2-1.1.0-BETA4"
+  },
+  "1.19.2": {
+    "1.19.2-1.1.0-BETA4": "- Bump to BETA 4, fix auto update tool [Harley]\n- Fix burgeoning potion not lingering [Harley]\n- Change version type to beta [Harley]"
   }
 }
