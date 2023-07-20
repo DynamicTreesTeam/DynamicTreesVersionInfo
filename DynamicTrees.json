@@ -74,10 +74,11 @@
     "1.16.5-recommended": "1.16.5-0.10.5",
     "1.12.2-latest": "1.12.2-0.9.29",
     "1.12.2-recommended": "1.12.2-0.9.29",
-    "1.19.2-latest": "1.19.2-1.1.0-BETA4",
-    "1.19.2-recommended": "1.19.2-1.1.0-BETA4"
+    "1.19.2-latest": "1.19.2-1.1.0-BETA5",
+    "1.19.2-recommended": "1.19.2-1.1.0-BETA5"
   },
   "1.19.2": {
-    "1.19.2-1.1.0-BETA4": "- Bump to BETA 4, fix auto update tool [Harley]\n- Fix burgeoning potion not lingering [Harley]\n- Change version type to beta [Harley]"
+    "1.19.2-1.1.0-BETA4": "- Bump to BETA 4, fix auto update tool [Harley]\n- Fix burgeoning potion not lingering [Harley]\n- Change version type to beta [Harley]",
+    "1.19.2-1.1.0-BETA5": "- Bump to beta 5 [Harley]\n- Fix #795 [Harley]"
   }
 }
