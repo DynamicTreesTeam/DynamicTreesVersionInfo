@@ -5,6 +5,9 @@
     "1.18.2-2.2.1": "Re-add missing tags.",
     "1.18.2-2.2.0": "Port to 1.18.2."
   },
+  "1.19.2": {
+    "1.19.2-2.4.0-Beta1": "- Finish porting to 1.19.2 [Harley]\n- Revert \"Revert \"finished dynamic glowshroom (no worldgen yet)\"\" [Harley]\n- Require DT beta 7 [Harley]\n- Fix world gen and adjust rarity [Harley]\n- Update DT depenedency versions [Harley]\n- Support 1.19.2 (#7) [ISNing]"
+  },
   "1.16.5": {
     "1.16.5-2.1.2": "New Features:\n+ Added turf slabs and turf stairs as a valid soil blocks",
     "1.16.5-2.1.1": "New Features:\n+ Added turf as a valid soil block",
@@ -27,6 +30,8 @@
     "1.16.5-latest": "1.16.5-2.1.2",
     "1.16.5-recommended": "1.16.5-2.1.2",
     "1.12.2-latest": "1.12.2-1.0.6",
-    "1.12.2-recommended": "1.12.2-1.0.6"
+    "1.12.2-recommended": "1.12.2-1.0.6",
+    "1.19.2-latest": "1.19.2-2.4.0-Beta1",
+    "1.19.2-recommended": "1.19.2-2.4.0-Beta1"
   }
 }
