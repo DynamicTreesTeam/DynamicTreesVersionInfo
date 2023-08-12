@@ -1,10 +1,14 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/dtbop/files",
+  "1.19.2": {
+    "1.19.2-3.1.0": "- Use version info repo for update checker [Harley]\n- Bump to DT beta 4, bump to 3.1.0 [Harley]\n- Add seasonal orchard gen [Harley]\n- Remove worldgen entry for removed boreal forest [Harley]\n- Port to 1.19.2 (#103) [Harley O'Connor]",
+    "1.19.2-3.1.1": "- Update in-line with DT beta 5 [Harley]"
+  },
   "1.18.2": {
+    "1.18.2-3.0.1": "- Add auto update tool [Harley]\n- Bump to 3.0.1 [Harley]\n- Remove burnt tree (unused), fixes #92 [Harley]\n- Fix boreal forest gen, fixes #94 [Harley]\n- Fix maple woods gen [Harley]",
     "1.18.2-3.0.0-Beta2": "Update for DT beta 6.",
     "1.18.2-3.0.0-Beta1": "Update to work with DT 0.11.0 Beta 1.",
-    "1.18.2-3.0.0-Alpha1": "Direct Port of 1.16.5 version.\n\nThis version may be missing trees if any new ones were added.",
-    "1.18.2-3.0.1": "- Add auto update tool [Harley]\n- Bump to 3.0.1 [Harley]\n- Remove burnt tree (unused), fixes #92 [Harley]\n- Fix boreal forest gen, fixes #94 [Harley]\n- Fix maple woods gen [Harley]"
+    "1.18.2-3.0.0-Alpha1": "Direct Port of 1.16.5 version.\n\nThis version may be missing trees if any new ones were added."
   },
   "1.16.5": {
     "1.16.5-2.0.7": "Bug Fixes:\n- Fixed crash with latest DT beta",
@@ -14,7 +18,7 @@
     "1.16.5-2.0.3": "Bug Fixes:\n- Fixed crash on servers",
     "1.16.5-2.0.2": "Enhancements:\n- Adjusted default densities for woodland and seasonal forest biomes\n- Added short jungle tree in rainforest biomes\nBug Fixes:\n- Fixed rainbow hills having no trees at all\n- Fixed default weights and trees for snowy coniferous forest and snowy maple forest",
     "1.16.5-2.0.1": "Bug Fixes:\n- Fixed model loading and tag warnings",
-    "1.16.5-2.0.0": "New Features:\n+ Updated to work with Minecraft 1.16.5\n- Updated to include the trees and biomes that Biomes o\u0027 Plenty has in 1.16.5"
+    "1.16.5-2.0.0": "New Features:\n+ Updated to work with Minecraft 1.16.5\n- Updated to include the trees and biomes that Biomes o' Plenty has in 1.16.5"
   },
   "1.12.2": {
     "1.12.2-1.5.1": "New Features:\n+ Added flowering apple species that generates in orchards\nEnhancements:\n- Adjusted fruit tree generation\nBug Fixes:\n+ Fixed tree generator completely replacing generation in swamplands and other biomes instead of adding to them",
@@ -30,9 +34,5 @@
     "1.12.2-recommended": "1.12.2-1.5.1",
     "1.19.2-latest": "1.19.2-3.1.1",
     "1.19.2-recommended": "1.19.2-3.1.1"
-  },
-  "1.19.2": {
-    "1.19.2-3.1.0": "- Use version info repo for update checker [Harley]\n- Bump to DT beta 4, bump to 3.1.0 [Harley]\n- Add seasonal orchard gen [Harley]\n- Remove worldgen entry for removed boreal forest [Harley]\n- Port to 1.19.2 (#103) [Harley O\u0027Connor]",
-    "1.19.2-3.1.1": "- Update in-line with DT beta 5 [Harley]"
   }
 }
