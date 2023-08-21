@@ -18,7 +18,8 @@
     "1.19.2-1.1.0-BETA5": "- Bump to beta 5 [Harley]\n- Fix #795 [Harley]",
     "1.19.2-1.1.0-BETA6": "",
     "1.19.2-1.1.0-BETA7": "- Bump to beta 7 [Harley]\n- Fix #801 (tree pool element not using DT namespace) [Harley]\n- Fix listResources to include high priority resources only [Harley]\n- Update .gitignore [Massimo Cantú]\n- Update gradle.properties [Massimo Cantú]\n- fixed vines not staying on leaves [Massimo Cantú]\n- changed type references to tags [Massimo Cantú]\n- fixed biome overrides not working [Massimo Cantú]\n- allowed snow to be placed on dynamic leaves [Massimo Cantú]\n- fixed treepacks not respecting order [Massimo Cantú]\n- fixed windswept forests [Max Hyper]\n- Merge pull request #800 from djsimmonds/develop/1.19.2 [Max Hyper]\n- fix heightmap assignment in DynamicTreeFeature.java [djsimmonds]",
-    "1.19.2-1.1.0-BETA8": "- Test update [Harley]"
+    "1.19.2-1.1.0-BETA8": "- Test update [Harley]",
+    "1.19.2-1.1.0-BETA9": "- Var name fix [Harley]\n- Fix cocoa not dropping [Harley]"
   },
   "1.16.5": {
     "1.16.5-0.10.5": "Fixes:\n- Fixed oak trees spawning in places they shouldn't\nTechnical:\n- Updated seed class to allow for cleaner inheritance",
@@ -81,7 +82,7 @@
     "1.16.5-recommended": "1.16.5-0.10.5",
     "1.12.2-latest": "1.12.2-0.9.29",
     "1.12.2-recommended": "1.12.2-0.9.29",
-    "1.19.2-latest": "1.19.2-1.1.0-BETA8",
-    "1.19.2-recommended": "1.19.2-1.1.0-BETA8"
+    "1.19.2-latest": "1.19.2-1.1.0-BETA9",
+    "1.19.2-recommended": "1.19.2-1.1.0-BETA9"
   }
 }
